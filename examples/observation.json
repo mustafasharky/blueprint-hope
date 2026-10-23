@@ -1,0 +1,12 @@
+{
+  "id": "demo-observation-1",
+  "occurred_at": "2026-10-22T19:00:00Z",
+  "topic": "Enzyme kinetics",
+  "kind": "misconception",
+  "text": "SYNTHETIC example: learner confused Km with Vmax when reading a graph. This is a demo, not an actual learner assessment.",
+  "source": "tutor_observation",
+  "evidence_ids": [
+    "attempt-1",
+    "attempt-3"
+  ]
+}

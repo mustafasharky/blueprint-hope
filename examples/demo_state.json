@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "product": "MCAT",
+  "learner_id": "DEMO_ONLY",
+  "generated_at": "2026-10-22T20:00:00.000000Z",
+  "source_captured_at": "2026-10-22T19:00:00.000000Z",
+  "source_age_hours": 1.0,
+  "latest_capture_coverage": {
+    "activities": "unavailable",
+    "assessments": "partial",
+    "attempts": "partial"
+  },
+  "freshness_by_collection": {
+    "attempts": {
+      "last_available_capture": "2026-10-22T19:00:00.000000Z",
+      "last_complete_capture": null
+    },
+    "assessments": {
+      "last_available_capture": "2026-10-22T19:00:00.000000Z",
+      "last_complete_capture": null
+    },
+    "activities": {
+      "last_available_capture": null,
+      "last_complete_capture": null
+    }
+  },
+  "sync_history": [
+    {
+      "snapshot_hash": "a63d934816ce2010ae8ec497ad79ab7e3a5e91d6cc8a47b61d1733f9ebf4eb5c",
+      "captured_at": "2026-10-22T19:00:00.000000Z",
+      "imported_at": "2026-10-23T00:44:32.601732Z",
+      "coverage": {
+        "activities": "unavailable",
+        "assessments": "partial",
+        "attempts": "partial"
+      }
+    }
+  ],
+  "records": {
+    "attempts": [
+      {
+        "correct": false,
+        "id": "attempt-1",
+        "occurred_at": "2026-10-22T18:00:00.000000Z",
+        "question_id": "question-1",
+        "seconds": 110,
+        "section": "BB",
+        "skill": "Data interpretation",
+        "topic": "Enzyme kinetics",
+        "updated_at": "2026-10-22T18:00:00.000000Z"
+      },
+      {
+        "correct": true,
+        "id": "attempt-2",
+        "occurred_at": "2026-10-22T18:00:00.000000Z",
+        "question_id": "question-2",
+        "seconds": 95,
+        "section": "BB",
+        "skill": "Data interpretation",
+        "topic": "Enzyme kinetics",
+        "updated_at": "2026-10-22T18:00:00.000000Z"
+      },
+      {
+        "correct": false,
+        "id": "attempt-3",
+        "occurred_at": "2026-10-20T17:00:00.000000Z",
+        "question_id": "question-3",
+        "seconds": 135,
+        "section": "BB",
+        "skill": "Data interpretation",
+        "topic": "Enzyme kinetics",
+        "updated_at": "2026-10-22T18:00:00.000000Z"
+      },
+      {
+        "correct": true,
+        "id": "attempt-4",
+        "occurred_at": "2026-10-22T18:00:00.000000Z",
+        "question_id": "question-4",
+        "seconds": 100,
+        "section": "CARS",
+        "skill": "Reasoning beyond the text",
+        "topic": "Passage inference",
+        "updated_at": "2026-10-22T18:00:00.000000Z"
+      }
+    ],
+    "assessments": [
+      {
+        "id": "exam-demo-1",
+        "mode": "timed",
+        "name": "SYNTHETIC demo exam",
+        "occurred_at": "2026-10-19T16:00:00.000000Z",
+        "scores": {
+          "BB": 126,
+          "CARS": 127,
+          "CP": 126,
+          "PS": 128,
+          "total": 507
+        },
+        "updated_at": "2026-10-19T16:00:00.000000Z"
+      }
+    ],
+    "activities": []
+  },
+  "topic_summaries": [
+    {
+      "section": "BB",
+      "topic": "Enzyme kinetics",
+      "skill": "Data interpretation",
+      "windows": {
+        "24h": {
+          "attempts": 2,
+          "answered": 2,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 0.5,
+          "unique_questions": 2,
+          "mean_seconds": 102.5,
+          "timed_observations": 2
+        },
+        "7d": {
+          "attempts": 3,
+          "answered": 3,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 0.3333333333333333,
+          "unique_questions": 3,
+          "mean_seconds": 113.33333333333333,
+          "timed_observations": 3
+        },
+        "30d": {
+          "attempts": 3,
+          "answered": 3,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 0.3333333333333333,
+          "unique_questions": 3,
+          "mean_seconds": 113.33333333333333,
+          "timed_observations": 3
+        },
+        "all": {
+          "attempts": 3,
+          "answered": 3,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 0.3333333333333333,
+          "unique_questions": 3,
+          "mean_seconds": 113.33333333333333,
+          "timed_observations": 3
+        }
+      },
+      "smoothed_30d_error_rate": 0.6,
+      "evidence_ids": [
+        "attempt-1",
+        "attempt-2",
+        "attempt-3"
+      ],
+      "last_practiced_at": "2026-10-22T18:00:00.000000Z"
+    },
+    {
+      "section": "CARS",
+      "topic": "Passage inference",
+      "skill": "Reasoning beyond the text",
+      "windows": {
+        "24h": {
+          "attempts": 1,
+          "answered": 1,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 1.0,
+          "unique_questions": 1,
+          "mean_seconds": 100.0,
+          "timed_observations": 1
+        },
+        "7d": {
+          "attempts": 1,
+          "answered": 1,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 1.0,
+          "unique_questions": 1,
+          "mean_seconds": 100.0,
+          "timed_observations": 1
+        },
+        "30d": {
+          "attempts": 1,
+          "answered": 1,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 1.0,
+          "unique_questions": 1,
+          "mean_seconds": 100.0,
+          "timed_observations": 1
+        },
+        "all": {
+          "attempts": 1,
+          "answered": 1,
+          "correct": 1,
+          "unanswered": 0,
+          "accuracy": 1.0,
+          "unique_questions": 1,
+          "mean_seconds": 100.0,
+          "timed_observations": 1
+        }
+      },
+      "smoothed_30d_error_rate": 0.3333333333333333,
+      "evidence_ids": [
+        "attempt-4"
+      ],
+      "last_practiced_at": "2026-10-22T18:00:00.000000Z"
+    }
+  ],
+  "local_observations": [
+    {
+      "evidence_ids": [
+        "attempt-1",
+        "attempt-3"
+      ],
+      "id": "demo-observation-1",
+      "kind": "misconception",
+      "occurred_at": "2026-10-22T19:00:00Z",
+      "source": "tutor_observation",
+      "text": "SYNTHETIC example: learner confused Km with Vmax when reading a graph. This is a demo, not an actual learner assessment.",
+      "topic": "Enzyme kinetics"
+    }
+  ],
+  "interpretation": [
+    "Missing source records are retained; absence is not a deletion.",
+    "Accuracy excludes unanswered items. Retakes remain separate attempts.",
+    "Repeated-question accuracy does not demonstrate transfer to new questions.",
+    "Smoothed error uses Beta(1,1); it is a descriptive heuristic, not a mastery probability.",
+    "Question timing may exclude passage reading; do not impose a universal time target.",
+    "Personal context is reported evidence, not a diagnosis.",
+    "Cloud tutor memory is maintained separately and must also be read."
+  ]
+}

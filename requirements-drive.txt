@@ -1,0 +1,5 @@
+# Optional. The offline evidence engine uses only the Python standard library.
+google-api-python-client>=2,<3
+google-auth>=2,<3
+google-auth-oauthlib>=1.2,<2
+keyring>=25,<26

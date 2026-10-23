@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "source": "blueprint_mcat",
+  "learner_id": "DEMO_ONLY",
+  "captured_at": "2026-10-22T19:00:00Z",
+  "coverage": {
+    "attempts": "partial",
+    "assessments": "partial",
+    "activities": "unavailable"
+  },
+  "attempts": [
+    {
+      "id": "attempt-1",
+      "question_id": "question-1",
+      "section": "BB",
+      "topic": "Enzyme kinetics",
+      "skill": "Data interpretation",
+      "correct": false,
+      "occurred_at": "2026-10-22T18:00:00Z",
+      "updated_at": "2026-10-22T18:00:00Z",
+      "seconds": 110
+    },
+    {
+      "id": "attempt-2",
+      "question_id": "question-2",
+      "section": "BB",
+      "topic": "Enzyme kinetics",
+      "skill": "Data interpretation",
+      "correct": true,
+      "occurred_at": "2026-10-22T18:00:00Z",
+      "updated_at": "2026-10-22T18:00:00Z",
+      "seconds": 95
+    },
+    {
+      "id": "attempt-3",
+      "question_id": "question-3",
+      "section": "BB",
+      "topic": "Enzyme kinetics",
+      "skill": "Data interpretation",
+      "correct": false,
+      "occurred_at": "2026-10-20T17:00:00Z",
+      "updated_at": "2026-10-22T18:00:00Z",
+      "seconds": 135
+    },
+    {
+      "id": "attempt-4",
+      "question_id": "question-4",
+      "section": "CARS",
+      "topic": "Passage inference",
+      "skill": "Reasoning beyond the text",
+      "correct": true,
+      "occurred_at": "2026-10-22T18:00:00Z",
+      "updated_at": "2026-10-22T18:00:00Z",
+      "seconds": 100
+    }
+  ],
+  "assessments": [
+    {
+      "id": "exam-demo-1",
+      "name": "SYNTHETIC demo exam",
+      "occurred_at": "2026-10-19T16:00:00Z",
+      "updated_at": "2026-10-19T16:00:00Z",
+      "scores": {
+        "CP": 126,
+        "CARS": 127,
+        "BB": 126,
+        "PS": 128,
+        "total": 507
+      },
+      "mode": "timed"
+    }
+  ],
+  "activities": []
+}
