@@ -26,9 +26,7 @@ the handoff between sessions; the project does not depend on remembering this ch
 
 ## Run on Windows
 
-Use Python 3.10+ and your installed Chrome. From this folder in the VS Code terminal:
-
-To get the project first:
+Use Python 3.10+ and your installed Chrome. In the VS Code terminal, get the project:
 
 ```text
 git clone https://github.com/mustafasharky/blueprint-hope.git

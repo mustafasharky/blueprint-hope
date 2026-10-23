@@ -75,5 +75,8 @@ canonical repository. GitHub MCP has write access; website sign-in is no longer
 needed. The repository is public as observed on 2026-10-23. Its tracked files must
 contain only source, project documents, prompts, and synthetic examples.
 
-The initial source publication to `main` is in progress. Read AGENTS.md and this
-file at the beginning of future sessions, then check Git history and ROADMAP.md.
+The initial 26-file source snapshot is published on `main` at
+`4e8100f51de1b8e6b3e9e961a97b9ac0a7e1b34e`; the remote handoff file was read back
+successfully. All 20 offline tests passed again before publication. This follow-up
+records completion of the repository foundation. Read AGENTS.md and this file at
+the beginning of future sessions, then check Git history and ROADMAP.md.

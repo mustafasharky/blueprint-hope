@@ -5,7 +5,7 @@
 - [x] Preserve the existing source and synthetic examples.
 - [x] Add instructions, current state, decisions, architecture, and discovery checklist.
 - [x] Exclude runtime profiles, exports, credentials, and local databases.
-- [ ] Publish to `mustafasharky/blueprint-hope` and verify the remote contents.
+- [x] Publish to `mustafasharky/blueprint-hope` and verify the remote contents.
 
 ## 1. Authenticated Blueprint discovery — next
 

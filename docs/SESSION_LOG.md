@@ -22,5 +22,10 @@
   branches. Observed repository visibility is public; no visibility setting was changed.
 - Updated the project name, clone instructions, decisions, and current repository state.
 - Reviewed the tracked file set: 26 source/document/example files, no private runtime
-  paths or credential-pattern matches. Initial publication is in progress.
+  paths or credential-pattern matches.
+- Published the source snapshot on `main` at
+  `4e8100f51de1b8e6b3e9e961a97b9ac0a7e1b34e` and read back the remote handoff file.
+  Updated the roadmap to mark the repository foundation complete.
+- Validation: all 20 offline tests passed again; `git diff --check` passed.
+  Live Blueprint extraction, Windows execution, and automatic delivery remain unverified.
 - Next development task remains the local Blueprint discovery session described above.
